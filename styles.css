@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: rgb(184, 223, 124);
+  color: rgb(31, 40, 16);
+  font: normal 16px 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: rgb(31, 40, 16);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: rgb(62, 77, 37);
+}
+
+#img_cat {
+  width: 300px;
+  border-radius: 7px;
+  box-shadow: 4px 4px 14px rgb(15, 20, 8);
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+  }
+}
+
+.info p {
+  color: rgb(21, 33, 2);
+  margin: 0;
+  font-style: italic;
+  text-transform: unset;
+  /* letter-spacing: 1px; */
+  /* word-spacing: 1px; */
+}
+
+/* box model */
+/* .social {
+ background: rgb(146, 185, 85);
+ padding: 10px 40px;
+ border: 5px solid rgb(43, 130, 43);
+ border-left-style: dashed;
+ border-right-style: dashed;
+ border-left-color: rgb(45, 98, 45);
+ border-right-color: rgb(45, 98, 45);
+} */
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* .box-modul > div{
+ float: left;
+ background: rgb(120, 167, 27);
+ border: 4px solid green;
+ height: 200px;
+ width: 25%;
+ box-sizing: border-box;
+} */
+
+.card-hobbies {
+  padding: 15px 20px;
+  background: rgb(146, 185, 85);
+  margin-bottom: 20px;
+  border-radius: 9px;
+}
+
+.card-experience {
+  padding: 15px 20px;
+  background: rgb(131, 164, 76);
+  margin-bottom: 20px;
+  border-radius: 9px;
+}
+
+.card-youtube {
+  padding: 15px 20px;
+  background: rgb(113, 144, 65);
+  margin-bottom: 20px;
+  border-radius: 9px;
+}
+
+.list {
+  padding: 0 20px;
+  list-style: inside;
+}
+
+.list li {
+  margin-bottom: 6px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.table td:nth-child(1) {
+  color: rgb(24, 33, 9);
+  font-weight: 600;
+}
+
+.link_list li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 500px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 10px 7px 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  padding: 15px 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+}
